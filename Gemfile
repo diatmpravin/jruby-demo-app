@@ -8,10 +8,10 @@ gem 'rails', '3.2.3'
 platform :jruby do
   gem 'activerecord-jdbcmysql-adapter'
   gem 'jruby-openssl'
-  gem 'therubyrhino', grou: :assets 
+  gem 'therubyrhino', :group => 'assets' 
 end
 
-plateform :ruby do
+platform :ruby do
   gem 'mysql2'
 end
 gem 'json'

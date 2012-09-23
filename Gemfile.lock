@@ -118,6 +118,7 @@ DEPENDENCIES
   jquery-rails
   jruby-openssl
   json
+  mysql2
   rails (= 3.2.3)
   sass-rails (~> 3.2.3)
   therubyrhino
